@@ -16,3 +16,5 @@ It includes guidelines for layout, typography, color, and other design elements.
 This can be seen with the MaterialApp widget in Flutter.
 
 Repository for this course: https://github.com/academind/flutter-complete-guide-course-resources
+
+7.Parameters are used for functions whilst arguments are used when calling functions.
