@@ -55,3 +55,10 @@ Thus,
 * Using 'if statements'
        
 23.mainAxisAlignmment is from top to down and crossAxisAlignment is from left to right.
+24.Padding is the internal space between the text and the border of the container.
+25.Margin is the external space between the container and other widgets.
+26.A Shuffle method called 'shuffle()' is used to randomize the order of items in a list.
+27. Increments Can Be Done By :
+    - currentQuestionIndex = currentQuestionIndex + 1
+    - currentQuestionIndex += 1
+    - currentQuestionIndex++
