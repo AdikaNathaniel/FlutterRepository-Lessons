@@ -167,3 +167,8 @@ crossAxisAlignment : crossAxisAlignment.end    -- This is used to align widgets 
     }
 51.Responsive implies that if a phone is put on auto rotate,
 the application layout changes to fit the new orientation.So the app looks good in both portrait and landscape mode.
+Some apps lock the orientation to portrait mode only.
+52.Safe Area ensures that the app stays away from device features like a camera.
+53.The title of an appBar is usually in the middle but when you use the property,
+       centerTitle : false
+This ensures that the title is to the left of the appBar.
