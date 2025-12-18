@@ -153,3 +153,5 @@ Eg to show a snackbar,
                duration: Duration(seconds: 2),
             )
          ); which means show a snackbar with the message 'Item deleted' for 2 seconds.
+This can be used with a dimmissable widget to show a message when an item is deleted and
+an UNDO is provided to restore the deleted item to the same place that it was.
