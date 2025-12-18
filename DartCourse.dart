@@ -122,3 +122,5 @@ Eg for a date,
                 await Future.delayed(Duration(seconds: 2))
                 return DateTime.now()
              } which means after 2 seconds the date will be available.
+41. DateTime? _selectedDate  -- This shows that the variable _selectedDate can be null.
+42._selectedDate!.year  -- The '!' operator implies that the variable _selectedDate is never null when accessing its year property.
