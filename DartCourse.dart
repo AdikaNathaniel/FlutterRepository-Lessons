@@ -139,8 +139,17 @@ for left, top, right and bottom respectively.
 Eg to delete a list item,
          Dismissable(
             key: ValueKey(item.id),
+            // This is an anonymous function
             onDismissed: (direction){
                deleteItem(item.id)
             },
             child: ListItemWidget(item: item)
          )
+48.SnackBar is just an information message shown on the screen.
+Eg to show a snackbar,
+         ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+               content: Text('Item deleted'),
+               duration: Duration(seconds: 2),
+            )
+         ); which means show a snackbar with the message 'Item deleted' for 2 seconds.
