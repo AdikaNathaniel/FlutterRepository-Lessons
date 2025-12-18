@@ -145,6 +145,8 @@ Eg to delete a list item,
             },
             child: ListItemWidget(item: item)
          )
+You could add a red color behind when it is being swiped to indicate to a user that the action you are taking is 
+deleting that card.
 48.SnackBar is just an information message shown on the screen.
 Eg to show a snackbar,
          ScaffoldMessenger.of(context).showSnackBar(
@@ -155,3 +157,5 @@ Eg to show a snackbar,
          ); which means show a snackbar with the message 'Item deleted' for 2 seconds.
 This can be used with a dimmissable widget to show a message when an item is deleted and
 an UNDO is provided to restore the deleted item to the same place that it was.
+49.crossAxisAlignment : crossAxisAlignment.start  -- This is used to align widgets to the start of the cross axis (left side).
+crossAxisAlignment : crossAxisAlignment.end    -- This is used to align widgets to the end of the cross axis (right side).
