@@ -85,4 +85,26 @@ Where private implies it can only be used inside a class where that variable is 
       return Summary
    }
 32. BreakPoints indicate that the code execution will stop at that point and you can inspect variables and their values at that point in time.
-33. Hot Reload allows you to see changes made in the code immediately without having to restart the
+33. Hot Reload allows you to see changes made in the code immediately without having to restart the application.
+34. DateTime is a dataType to store date and time information.
+    Example is
+             var currentDate = DateTime.now()
+35.The 'Uuid' package is used to generate unique identifiers.
+    Example is
+             var uuid = Uuid()
+             var uniqueId = uuid.v4()
+where say the title,amount and date a book was published can have a unique identifier.
+36.To create a fixed set of allowed values, you can use an enum.
+    Example is
+             enum Category{
+                fiction,
+                history,
+                science,
+                biography,
+                poetry
+             }
+37.The method 'toStringAsFixed()' is used to format a double value to a string with a specified number of decimal places.
+    Example is
+             var price = 19.9999
+             var formattedPrice = price.toStringAsFixed(2) // '20.00'
+38.If you want 1 to the left and 3 to the right,you can use a 'const spacer()' between them.
