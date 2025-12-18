@@ -62,3 +62,25 @@ Thus,
     - currentQuestionIndex = currentQuestionIndex + 1
     - currentQuestionIndex += 1
     - currentQuestionIndex++
+28.Map are collections that match values to keys.
+       var user = {
+            'username' : 'Maxmillan',
+            'password' : 'supersect',
+            'age' : 33
+       }
+29. For loops is given by :
+       for(var i = 0;i < chosenAnswers.length; i++){
+            summary.add({
+                 'question_index' : i,
+                 'question': questions[i].text,
+                 'correct_answer': questions[i].answers[0],
+                 'user_answer' : chosenAnswers[i]
+            });
+       }
+30. var _activeman = 'Nat'    -- This denotes a private variable.
+Where private implies it can only be used inside a class where that variable is defined.
+
+31.Dealing With Getters
+    getSummary{
+      return Summary
+   }
