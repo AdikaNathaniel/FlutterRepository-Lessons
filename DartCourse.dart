@@ -108,3 +108,17 @@ where say the title,amount and date a book was published can have a unique ident
              var price = 19.9999
              var formattedPrice = price.toStringAsFixed(2) // '20.00'
 38.If you want 1 to the left and 3 to the right,you can use a 'const spacer()' between them.
+39.Have a void dispose method to clean up controllers when they are no longer needed.
+This saves memory and prevents potential memory leaks on the mobile device.
+    Example is
+             @override23
+             void dispose(){
+                _controller.dispose()
+                super.dispose()
+             }
+40.Futures is a datatype that represents a value that will be available at some point in the future.
+Eg for a date,
+             Future<DateTime> fetchDateFromServer() async {
+                await Future.delayed(Duration(seconds: 2))
+                return DateTime.now()
+             } which means after 2 seconds the date will be available.
