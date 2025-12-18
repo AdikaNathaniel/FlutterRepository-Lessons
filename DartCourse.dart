@@ -124,3 +124,12 @@ Eg for a date,
              } which means after 2 seconds the date will be available.
 41. DateTime? _selectedDate  -- This shows that the variable _selectedDate can be null.
 42._selectedDate!.year  -- The '!' operator implies that the variable _selectedDate is never null when accessing its year property.
+43._titleController.text.trim()  -- This is used to access the text entered in a TextField using its controller 
+and remove any leading or trailing whitespace(i.e before and after the text).
+44. LOGICAL Operators
+   - AND : &&
+   - OR  : ||
+   - NOT : !
+45.NB : / is for division that gives double values
+         ~/ is for integer division that gives integer values
+         % is for modulus that gives the remainder after division
