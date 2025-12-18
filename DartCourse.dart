@@ -159,3 +159,11 @@ This can be used with a dimmissable widget to show a message when an item is del
 an UNDO is provided to restore the deleted item to the same place that it was.
 49.crossAxisAlignment : crossAxisAlignment.start  -- This is used to align widgets to the start of the cross axis (left side).
 crossAxisAlignment : crossAxisAlignment.end    -- This is used to align widgets to the end of the cross axis (right side).
+50.Another type of for loop is :
+   final List<Expense> expenses;
+
+    for (final expense in expenses){
+           sum = sum + expense.amount;
+    }
+51.Responsive implies that if a phone is put on auto rotate,
+the application layout changes to fit the new orientation.So the app looks good in both portrait and landscape mode.
