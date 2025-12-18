@@ -133,3 +133,14 @@ and remove any leading or trailing whitespace(i.e before and after the text).
 45.NB : / is for division that gives double values
          ~/ is for integer division that gives integer values
          % is for modulus that gives the remainder after division
+46.EdgeInsets.fromLTRB(10,0,10,0)  -- This is used to set custom padding or margin values 
+for left, top, right and bottom respectively.
+47. Dismissable widget is used to delete items with a swipe gesture.
+Eg to delete a list item,
+         Dismissable(
+            key: ValueKey(item.id),
+            onDismissed: (direction){
+               deleteItem(item.id)
+            },
+            child: ListItemWidget(item: item)
+         )
