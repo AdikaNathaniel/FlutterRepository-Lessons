@@ -84,3 +84,5 @@ Where private implies it can only be used inside a class where that variable is 
     getSummary{
       return Summary
    }
+32. BreakPoints indicate that the code execution will stop at that point and you can inspect variables and their values at that point in time.
+33. Hot Reload allows you to see changes made in the code immediately without having to restart the
