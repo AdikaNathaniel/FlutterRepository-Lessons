@@ -172,3 +172,10 @@ Some apps lock the orientation to portrait mode only.
 53.The title of an appBar is usually in the middle but when you use the property,
        centerTitle : false
 This ensures that the title is to the left of the appBar.
+54.Trees :
+   - Widget Trees : This means all combination of the widgets in your code
+   - Element Trees : The 'in-memory' representation of widgets thus determining the UI updates
+   - Render Trees : The visible UI building blocks.
+55.Keys are important in Flutter to help preserve the state of widgets 
+when they are moved around in the widget tree or when the widget tree is rebuilt.
+56. You can have a drawer and a navbar at the bottom.

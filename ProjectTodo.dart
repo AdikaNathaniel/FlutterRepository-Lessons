@@ -4,5 +4,6 @@
 3.Try out Google Fonts in the Palsy application.
 4.Check The Debug Console For Any Errors and CheckOut Dev Tools.
 5.Add a dark Mode at the beginning of the application.
+6.Have a drawer and a bottom navigation bar.
 
  
