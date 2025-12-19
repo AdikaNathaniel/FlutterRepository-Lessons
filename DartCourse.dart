@@ -313,7 +313,7 @@ and the Catch block contains the code that handles the error so what message sho
 90.[newPlace, ...state] is called the spread operator and it is used to create a new list that contains all the elements of the existing state list.
 91.The ListTile works with the 'onTap' property to detect taps on the entire tile.
 92.Native Features For Flutter include:
-   - Camera Access
+   - Camera Access using image picker library.
    - GPS and Location Services
    - Push Notifications
    - File Storage
