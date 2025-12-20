@@ -310,4 +310,5 @@ it should handle the error gracefully and provide feedback to the user.
 89.Try-Catch block is used for error handling in Dart.
 The Try block contains the code that might throw an error,
 and the Catch block contains the code that handles the error so what message should be shown to the user.
+90.[newPlace, ...state] is called the spread operator and it is used to create a new list that contains all the elements of the existing state list.
 
