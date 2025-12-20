@@ -298,3 +298,5 @@ and thus,app users all over the world can access that data.
    - Status Code : Indicates the result of the request (200 for success, 404 for not found, etc.).
    - Headers : Additional information about the response.
    - Body : The actual data returned from the server (often in JSON format).
+85.Firebase is a Backend as a Service (BaaS) platform developed by Google that provides a suite of 
+cloud-based services like databases and tools for building and managing mobile and web applications.
