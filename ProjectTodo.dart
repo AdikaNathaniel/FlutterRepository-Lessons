@@ -5,5 +5,7 @@
 4.Check The Debug Console For Any Errors and CheckOut Dev Tools.
 5.Add a dark Mode at the beginning of the application.
 6.Have a drawer and a bottom navigation bar.
+7.Loading Spinner Should Be Used When Fetching Data From The Backend Before the Data 
+finally arrives.Eg : CircularProgressIndicator can be used.
 
  

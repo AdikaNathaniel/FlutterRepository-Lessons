@@ -304,3 +304,6 @@ cloud-based services like databases and tools for building and managing mobile a
 a given condition.Eg :
        var numbers = [1, 2, 3, 4, 5]
        var firstEven = numbers.firstWhere((number) => number % 2 == 0) hence the answer will be 2.
+87.Any status code above 404,implies that there is an error.
+88.Error Handling implies that if an error occurs,the app should not crash instead
+it should handle the error gracefully and provide feedback to the user.
