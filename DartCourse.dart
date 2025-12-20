@@ -252,7 +252,28 @@ mainAxisAlignmment.end will take a widget to the right of the row whereas, mainA
 the widget to the beiginning of the row.
 Validation Logic is just checking if all the form fields have been filled in or not.Another example is
 expecting that a value betwwen 1 and say 100.
-
+75.Parse will throw an error if the string cannot be converted to an integer whereas 
+tryParse will return null.
+76.Forms are given a formKey and this key is used to identify the form and do operations on it like
+validating the form fields and saving the form fields.
+77.Why a backend is necessary:
+   - Data Persistence
+   - User Authentication
+   - Business Logic
+   - Scalability
+   - Integration with Third-Party Services
+   - Data Stored Locally on Device is Volatile
+78.Types of Backends:   
+   - Backend as a Service (BaaS) which means using third party services like
+        - Firebase
+        - Supabase
+        - AWS Amplify
+        - Backendless
+   - Custom Backend which means building your own backend using technologies like
+        - Node.js with Express
+        - Django (Python)
+        - Ruby on Rails
+        - Spring Boot (Java)
 
 
 
