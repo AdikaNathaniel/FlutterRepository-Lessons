@@ -242,5 +242,6 @@ All of this explicit animation requires all this configuration to be done but in
 all of that is setup for you.
 NB : Keys are needed when you have multiple widgets of the same type to differentiate them since each of
 them has different data on them.
+
 73.
 
