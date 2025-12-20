@@ -208,3 +208,13 @@ When you select an item from the left side,the right side should change to refle
 but since they are disjointed,this is not possible hence state management is needed
 by ensuring that the state is shared or communicated between the two sides hence from the 
 very beginning.
+Example of packages for state management are :
+   - Provider
+   - Riverpod
+   - Bloc
+   - GetX
+   - MobX
+   - Redux
+However,Riverpod and Provider are the most popular but riverpod is considered more modern and flexible.
+
+
