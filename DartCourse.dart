@@ -300,3 +300,7 @@ and thus,app users all over the world can access that data.
    - Body : The actual data returned from the server (often in JSON format).
 85.Firebase is a Backend as a Service (BaaS) platform developed by Google that provides a suite of 
 cloud-based services like databases and tools for building and managing mobile and web applications.
+86.The firstWhere method is used to find the first element in a collection that satisfies
+a given condition.Eg :
+       var numbers = [1, 2, 3, 4, 5]
+       var firstEven = numbers.firstWhere((number) => number % 2 == 0) hence the answer will be 2.
