@@ -179,3 +179,18 @@ This ensures that the title is to the left of the appBar.
 55.Keys are important in Flutter to help preserve the state of widgets 
 when they are moved around in the widget tree or when the widget tree is rebuilt.
 56. You can have a drawer and a navbar at the bottom.
+57.Inkwell allows an onTap effect on any widget.
+58.To have image in the background and a text on top of it uses the principle of Stacks.
+59.Usually the tabs is created as a separate dart page. 
+60.A subtitle with a labelMedium sets the font size to 14.
+61.An alternative to pushing pages on the flutter app is to replace the current page with another page.
+62.WillPopScope is thought to be deprecated but the latest is PopScope. 
+It is used to intercept the back button press action.
+63.Recall that maps use key-value pairs.
+Eg to define a map,  
+     Map<String, int> scores = {
+        'Alice': 90,
+        'Bob': 85,
+        'Charlie': 92,
+     };
+64. A ?? B -- This means if A is not null use A otherwise use B.
