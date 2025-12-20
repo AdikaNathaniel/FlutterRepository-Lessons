@@ -217,4 +217,7 @@ Example of packages for state management are :
    - Redux
 However,Riverpod and Provider are the most popular but riverpod is considered more modern and flexible.
 
+** Not Understood Yet** -- More Complex Provider With State Notifier
+67. ChangeNotifier is a class that provides change notification to its listeners.
+
 
