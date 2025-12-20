@@ -240,3 +240,7 @@ After the animation,use the dispose to do the clean up work.
        ).animate(CurvedAnimation(parent: _animationController, curve: Curves.easeInOut),)
 All of this explicit animation requires all this configuration to be done but in implicit animation,
 all of that is setup for you.
+NB : Keys are needed when you have multiple widgets of the same type to differentiate them since each of
+them has different data on them.
+73.
+
