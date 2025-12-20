@@ -243,5 +243,16 @@ all of that is setup for you.
 NB : Keys are needed when you have multiple widgets of the same type to differentiate them since each of
 them has different data on them.
 
-73.
+73.Recall that positional arguments is where first variable must take first data input and the second
+variable must take the second data input.
+On the other hand,named arguments allow to mix the positions.
+
+74.Note that in a form widget,we will use a TextFormField widget to receive data from a user.
+mainAxisAlignmment.end will take a widget to the right of the row whereas, mainAxisAlignmment.start,will take
+the widget to the beiginning of the row.
+Validation Logic is just checking if all the form fields have been filled in or not.Another example is
+expecting that a value betwwen 1 and say 100.
+
+
+
 
