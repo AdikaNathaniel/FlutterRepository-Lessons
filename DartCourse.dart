@@ -311,4 +311,14 @@ it should handle the error gracefully and provide feedback to the user.
 The Try block contains the code that might throw an error,
 and the Catch block contains the code that handles the error so what message should be shown to the user.
 90.[newPlace, ...state] is called the spread operator and it is used to create a new list that contains all the elements of the existing state list.
+91.The ListTile works with the 'onTap' property to detect taps on the entire tile.
+92.Native Features For Flutter include:
+   - Camera Access
+   - GPS and Location Services
+   - Push Notifications
+   - File Storage
+   - Sensors (Accelerometer, Gyroscope)
+   - Contacts Access
+   - Calendar Access
+   - Microphone Access
 
