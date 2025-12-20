@@ -274,6 +274,27 @@ validating the form fields and saving the form fields.
         - Django (Python)
         - Ruby on Rails
         - Spring Boot (Java)
-
-
-
+Backend stores data in databases like
+        - SQL Databases (PostgreSQL, MySQL)
+        - NoSQL Databases (MongoDB, Firebase Firestore) 
+and thus,app users all over the world can access that data.
+79.REST API is a set of rules and conventions for building and interacting with web services.
+80.A flutter app can communicate with a backend server using HTTP requests to perform operations like
+   - Creating Data (POST)
+   - Reading Data (GET)
+   - Updating Data (PUT/PATCH) where PUT is for full update and PATCH is for partial update
+   - Deleting Data (DELETE)    i.e the CRUD
+81. HTTP is a protocol used for communication between clients (like mobile apps)  so a flutter frontend and
+ servers over the internet.
+ FrontEnd sends HTTP requests to the backend server,which processes these requests and 
+ sends back HTTP responses.
+82. HTTP package in Flutter is used to make HTTP requests to interact with web services and APIs.
+83.HTTP requests involve:
+   - URL (Uniform Resource Locator) : The address of the resource on the server.
+   - Method : The type of operation to be performed (GET, POST, PUT, DELETE).
+   - Headers : Additional information sent with the request (like authentication tokens).
+   - Body : Data sent with the request (for POST and PUT requests).
+84.The HTTP response from the server includes:
+   - Status Code : Indicates the result of the request (200 for success, 404 for not found, etc.).
+   - Headers : Additional information about the response.
+   - Body : The actual data returned from the server (often in JSON format).
