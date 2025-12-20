@@ -219,5 +219,24 @@ However,Riverpod and Provider are the most popular but riverpod is considered mo
 
 ** Not Understood Yet** -- More Complex Provider With State Notifier
 67. ChangeNotifier is a class that provides change notification to its listeners.
-
-
+In summary,riverpod is used for managing global state or cross widget state.
+68.The types of animations are :
+       - Implicit animations -- Flutter Controls The Animation, less control with less complexity
+       - Explicit animations -- You Control The Animation, hence more control but greater complexity
+69.Animation Controller will always work with a stateful widget due to the numerous changes.
+70.Late is used with animationController to say "okay I don't have a value for you now,but later you
+will get some values".
+    Eg : 
+       late AnimationController _animationController
+In an animation, you set a duration,a lower bound and an upper bound for the animation.
+After the animation,use the dispose to do the clean up work.
+71.animationController.forward() -- This ensures an animation is started.
+   animationController.repeat()  -- This ensures an animation continues in a cycle.
+72.Tween() -- This comes from the idead that we are transitioning between two values.
+  It works as :
+       Tween(
+         begin: const Offset(0,0.3),
+         end :  const Offset(0,0),
+       ).animate(CurvedAnimation(parent: _animationController, curve: Curves.easeInOut),)
+All of this explicit animation requires all this configuration to be done but in implicit animation,
+all of that is setup for you.
