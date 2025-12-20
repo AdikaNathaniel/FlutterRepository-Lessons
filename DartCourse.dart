@@ -194,3 +194,17 @@ Eg to define a map,
         'Charlie': 92,
      };
 64. A ?? B -- This means if A is not null use A otherwise use B.
+65.The named route approach is better for larger applications with many screens however
+this approach is usually not recommended for most apps.
+     Eg to define named routes,
+         routes : {
+        '/': (ctx) => HomeScreen(),
+        '/settings' : (ctx) => SettingsScreen(),
+        }
+             STATE MANAGEMENT
+66.State Management is important for example where one page is on the left side of 
+a drop down menu and the other page is on the right side of the dropdown menu.
+When you select an item from the left side,the right side should change to reflect that choice
+but since they are disjointed,this is not possible hence state management is needed
+by ensuring that the state is shared or communicated between the two sides hence from the 
+very beginning.
