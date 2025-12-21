@@ -326,3 +326,8 @@ and the Catch block contains the code that handles the error so what message sho
 The reverse geocoding is converting geographic coordinates into human-readable addresses which is usually done.
 95.Permissions are required to access certain device features like camera and location.
 The permission_handler package is used to request and manage permissions in a Flutter app.
+96.Null Check Code Involves:
+  Eg
+      if (lat == null || lng == null) {
+      return;
+      }
