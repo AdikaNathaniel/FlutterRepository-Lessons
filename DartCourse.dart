@@ -360,3 +360,10 @@ Eg :
      textCapitalization: TextCapitalization.words, // Capitalizes the first letter of each word
      textCapitalization: TextCapitalization.sentences, // Capitalizes the first letter of each sentence
      textCapitalization: TextCapitalization.characters, // Capitalizes all characters
+105.ObscureText Property is used to hide the text input, commonly used for password fields.
+Eg :     
+     obscureText: true, // Hides the text input
+106.SDK stands for Software Development Kit.
+It is a collection of tools, libraries, documentation, and code samples that developers use to create software applications 
+for specific platforms or frameworks.An example is the Firebase SDK for Flutter which provides tools and libraries 
+to integrate Firebase services into Flutter applications.
