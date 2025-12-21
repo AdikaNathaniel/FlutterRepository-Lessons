@@ -340,3 +340,7 @@ It provides a way to store, retrieve, and manage structured data using SQLite,
 a lightweight relational database engine.
 100.Future means that the value will be available at some point in the future after 
 some asynchronous operation is completed.
+101.mainAxisAlignmment.center -- This is used to center widgets along the main axis of a Row or Column. (CENTER)
+mainAxisAlignmment.spaceBetween -- This is used to distribute widgets evenly along the main axis with space between them.
+mainAxisAlignmment.start -- This is used to align widgets to the start of the main axis. (LEFT)
+mainAxisAlignmment.end -- This is used to align widgets to the end of the main axis. (RIGHT)
