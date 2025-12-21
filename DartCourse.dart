@@ -344,3 +344,11 @@ some asynchronous operation is completed.
 mainAxisAlignmment.spaceBetween -- This is used to distribute widgets evenly along the main axis with space between them.
 mainAxisAlignmment.start -- This is used to align widgets to the start of the main axis. (LEFT)
 mainAxisAlignmment.end -- This is used to align widgets to the end of the main axis. (RIGHT)
+
+102.The KeyboardType Property is used to specify the type of keyboard to be displayed
+when a TextField is focused.
+Eg :  
+     keyboardType: TextInputType.emailAddress, // For email input
+     keyboardType: TextInputType.number, // For numeric input
+     keyboardType: TextInputType.phone, // For phone number input
+     keyboardType: TextInputType.multiline, // For multi-line text input

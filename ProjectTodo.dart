@@ -8,5 +8,6 @@
 7.Loading Spinner Should Be Used When Fetching Data From The Backend Before the Data 
 finally arrives.Eg : CircularProgressIndicator can be used.
 8.FireBase Can Be Used For Real-Time Chat.
+Use a Chat Image like the text bubble in messenger applications.
 
  
