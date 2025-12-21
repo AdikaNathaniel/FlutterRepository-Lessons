@@ -335,3 +335,6 @@ The permission_handler package is used to request and manage permissions in a Fl
 98.Set does not allow duplicate values whereas List allows duplicate values.
 Eg :
      var mySet = <String>{'apple', 'banana', 'orange', 'apple'}; // 'apple' will only appear once
+99.Sqflite is a popular package for local database storage in Flutter applications.
+It provides a way to store, retrieve, and manage structured data using SQLite, 
+a lightweight relational database engine.
