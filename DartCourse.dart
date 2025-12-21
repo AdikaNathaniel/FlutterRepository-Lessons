@@ -322,4 +322,7 @@ and the Catch block contains the code that handles the error so what message sho
    - Calendar Access
    - Microphone Access
 93.Stack Widget allows you to overlay multiple widgets on top of each other.
-
+94.Geocoding is the process of converting addresses into geographic coordinates (latitude and longitude)
+The reverse geocoding is converting geographic coordinates into human-readable addresses which is usually done.
+95.Permissions are required to access certain device features like camera and location.
+The permission_handler package is used to request and manage permissions in a Flutter app.
