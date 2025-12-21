@@ -313,12 +313,12 @@ and the Catch block contains the code that handles the error so what message sho
 90.[newPlace, ...state] is called the spread operator and it is used to create a new list that contains all the elements of the existing state list.
 91.The ListTile works with the 'onTap' property to detect taps on the entire tile.
 92.Native Features For Flutter include:
-   - Camera Access using image picker library.
-   - GPS and Location Services
+   - Camera Access using   ImagePicker library.
+   - GPS and Location Services using Google Maps or Geolocator package.
    - Push Notifications
    - File Storage
    - Sensors (Accelerometer, Gyroscope)
-   - Contacts Access
+   - Contacts Access using contacts_service package.
    - Calendar Access
    - Microphone Access
 93.Stack Widget allows you to overlay multiple widgets on top of each other.
@@ -338,3 +338,5 @@ Eg :
 99.Sqflite is a popular package for local database storage in Flutter applications.
 It provides a way to store, retrieve, and manage structured data using SQLite, 
 a lightweight relational database engine.
+100.Future means that the value will be available at some point in the future after 
+some asynchronous operation is completed.
