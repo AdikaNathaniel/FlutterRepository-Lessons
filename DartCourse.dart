@@ -331,3 +331,7 @@ The permission_handler package is used to request and manage permissions in a Fl
       if (lat == null || lng == null) {
       return;
       }
+97.CircleAvatar is used to get a circular image.
+98.Set does not allow duplicate values whereas List allows duplicate values.
+Eg :
+     var mySet = <String>{'apple', 'banana', 'orange', 'apple'}; // 'apple' will only appear once
