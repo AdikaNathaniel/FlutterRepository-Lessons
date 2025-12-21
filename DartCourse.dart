@@ -321,4 +321,5 @@ and the Catch block contains the code that handles the error so what message sho
    - Contacts Access
    - Calendar Access
    - Microphone Access
+93.Stack Widget allows you to overlay multiple widgets on top of each other.
 
