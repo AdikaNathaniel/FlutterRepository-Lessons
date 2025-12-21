@@ -367,3 +367,15 @@ Eg :
 It is a collection of tools, libraries, documentation, and code samples that developers use to create software applications 
 for specific platforms or frameworks.An example is the Firebase SDK for Flutter which provides tools and libraries 
 to integrate Firebase services into Flutter applications.
+107.Flutter Can Be Connected To FireBase using flutterfire configure command.
+108.
+              HOW AUTHENTICATION WITH TOKENS WORKS
+*  Flutter frontend collects user credentials (username and password) through a login form.
+*  This stores and validates the credentials against a backend server or authentication service in terms 
+of what it must receive.
+* An authentication token (like JWT) is generated upon successful validation.
+* This token is sent back to the Flutter frontend as part of the login response to be stored on the device.
+* Attach tokens to requests for protected resources by including them in the Authorization header.
+* There is verification of tokens on the backend server to ensure they are valid and not expired.
+* Access is granted to protected resources if the token is valid; otherwise, an error response is returned.
+* Tokens are refreshed before they expire to maintain user sessions without requiring re-login.
