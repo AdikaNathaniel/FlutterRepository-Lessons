@@ -352,3 +352,11 @@ Eg :
      keyboardType: TextInputType.number, // For numeric input
      keyboardType: TextInputType.phone, // For phone number input
      keyboardType: TextInputType.multiline, // For multi-line text input
+103.You can turn off autocorrect by using the property,
+      autocorrect : false 
+to ensure that the text entered is not changed by the keyboard.
+104.TextCapitalization Property is used to control how the text input is capitalized.
+Eg :
+     textCapitalization: TextCapitalization.words, // Capitalizes the first letter of each word
+     textCapitalization: TextCapitalization.sentences, // Capitalizes the first letter of each sentence
+     textCapitalization: TextCapitalization.characters, // Capitalizes all characters
