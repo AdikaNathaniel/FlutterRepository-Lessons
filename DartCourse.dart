@@ -379,3 +379,25 @@ of what it must receive.
 * There is verification of tokens on the backend server to ensure they are valid and not expired.
 * Access is granted to protected resources if the token is valid; otherwise, an error response is returned.
 * Tokens are refreshed before they expire to maintain user sessions without requiring re-login.
+109.StreamBuilder produces multiple values over time whereas FutureBuilder produces a single value once.
+StreamBuilder is usualy used for real-time data streams like chat messages or live updates.
+110.
+allow read,write: if request.auth != null
+  This means if a user is authenticated,allow them to read and write to the DB.
+111.cloud_firestore package is used to interact with Firestore database in Flutter applications.
+112.
+Firebase is a comprehensive mobile and web app development platform provided by Google. 
+It is a suite of tools for building, hosting, and managing apps, offering services such as
+  * Authentication (sign-in with email, Google, Facebook, etc.),
+  * Databases (Firestore and Realtime Database),
+  * Firebase Storage for files, Firebase Hosting, 
+  * Cloud Functions for backend code, and analytics tools like Crashlytics 
+  * Performance monitoring. 
+Essentially, Firebase is the entire ecosystem for app development, not just a database.
+
+Firestore, on the other hand, is a specific service within Firebase. 
+It is a NoSQL cloud database designed to store and sync app data in real-time. 
+Firestore uses a document-based structure where data is organized into collections, documents, and fields. 
+It supports real-time updates, offline usage with automatic syncing, and can scale from small apps to large applications.
+In summary, Firebase is the overarching platform for app development, 
+while Firestore is a database service within Firebase for managing app data efficiently.
