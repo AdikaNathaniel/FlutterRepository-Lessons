@@ -401,3 +401,4 @@ Firestore uses a document-based structure where data is organized into collectio
 It supports real-time updates, offline usage with automatic syncing, and can scale from small apps to large applications.
 In summary, Firebase is the overarching platform for app development, 
 while Firestore is a database service within Firebase for managing app data efficiently.
+113.Usually for Usernames for a textFormField has the enableuggestions turned to false.
