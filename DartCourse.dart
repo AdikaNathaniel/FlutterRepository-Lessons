@@ -402,3 +402,8 @@ It supports real-time updates, offline usage with automatic syncing, and can sca
 In summary, Firebase is the overarching platform for app development, 
 while Firestore is a database service within Firebase for managing app data efficiently.
 113.Usually for Usernames for a textFormField has the enableuggestions turned to false.
+114.For real-time chats,Firestore is preferred since it provides real-time data synchronization
+and offline support out of the box.
+115. So the message is sent to Firestore and all clients listening to that collection get the new message instantly.
+This is achieved using Firestore's real-time listeners, which automatically update the UI when data changes
+This is usually done with a StreamBuilder widget in Flutter.
