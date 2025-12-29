@@ -407,3 +407,9 @@ and offline support out of the box.
 115. So the message is sent to Firestore and all clients listening to that collection get the new message instantly.
 This is achieved using Firestore's real-time listeners, which automatically update the UI when data changes
 This is usually done with a StreamBuilder widget in Flutter.
+116.We usually set descending to false to ascend from oldest to newest messages.
+117.Push Notifications can also be implemented with Flutter Push Notifications.
+Usually paid for when in deployment mode.
+You'll need to add Firebase Cloud Messaging (FCM) to your Firebase project and configure it for your Flutter app.
+118.Messages can be sent to multiple devices by using topics in Firebase Cloud Messaging (FCM).
+Devices can subscribe to specific topics, and when a message is sent to that topic, all subscribed
